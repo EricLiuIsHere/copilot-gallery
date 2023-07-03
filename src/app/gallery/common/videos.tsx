@@ -84,6 +84,12 @@ const Videos: Video[] = [
     description: 'It can provide mutiple class names and makes the element block as you want it to be.',
     type: 'css',
   },
+  {
+    videoUrl: '/videos/13.mp4',
+    title: 'Refactor code',
+    description: 'Copilot can provide suggestions to refactor code.',
+    type: 'misc',
+  },
 ];
 
 export default Videos;
