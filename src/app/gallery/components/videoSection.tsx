@@ -23,6 +23,7 @@ function VideoSection({ title, description, type }: VideoSectionProps) {
             title={video.title}
             description={video.description}
             videoUrl={video.videoUrl}
+            author={video.author}
           />
         ))}
       </div>
