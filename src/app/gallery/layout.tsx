@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
-
+import  './layout.module.css';
 export default function GalleryLayout({
   children, // will be a page or nested layout
 }: {
@@ -21,8 +21,11 @@ export default function GalleryLayout({
         {pathSegments.length > 0 && (
           <>
             <span className="mx-2">{'>'}</span>
-            <span className="font-medium">{pathSegments[pathSegments.length - 1]}</span>
-          </>
+            <span className="font-medium">
+              <span className="text-gray-700 pathSegment">{pathSegments[pathSegments.length - 1]}</span>
+
+            </span>
+                    </>
         )}
       </nav>
 
