@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
-import  './layout.module.css';
+
 export default function GalleryLayout({
   children, // will be a page or nested layout
 }: {
@@ -13,7 +13,6 @@ export default function GalleryLayout({
   });
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
       <nav className="text-gray-500 text-sm self-start">
         <Link href="/">
           <span className="hover:text-gray-700">Home</span>
@@ -21,11 +20,8 @@ export default function GalleryLayout({
         {pathSegments.length > 0 && (
           <>
             <span className="mx-2">{'>'}</span>
-            <span className="font-medium">
-              <span className="text-gray-700 pathSegment">{pathSegments[pathSegments.length - 1]}</span>
-
-            </span>
-                    </>
+            <span className="font-medium">{pathSegments[pathSegments.length - 1]}</span>
+          </>
         )}
       </nav>
 
