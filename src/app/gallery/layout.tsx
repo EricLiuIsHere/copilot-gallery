@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
-
+import  './layout.module.css';
 export default function GalleryLayout({
   children, // will be a page or nested layout
 }: {
