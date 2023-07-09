@@ -16,6 +16,7 @@ function Card({ title, description, videoUrl, tags }: CardProps) {
           className={`${styles.video} w-full h-full h-216`}
           title={title}
           controls
+          preload="none"
         >
           <source src={videoUrl} type="video/mp4" />
         </video>
