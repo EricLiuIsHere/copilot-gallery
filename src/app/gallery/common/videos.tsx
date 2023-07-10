@@ -147,7 +147,41 @@ const Videos: Video[] = [
     type: 'misc',
     tags: ['misc' ,'frontend']
   },
-
+  {
+    videoUrl: '/videos/14.mp4',
+    title: 'Create a function - javascript',
+    description: 'The basic feature of Copilot. This demo shows copilot is able to create a function based on proper prompt comments.',
+    type: 'javascript',
+    tags: ['javascript' ,'frontend']
+  },
+  {
+    videoUrl: '/videos/15.mp4',
+    title: 'Create a function - typescript',
+    description: 'The basic feature of Copilot. This demo shows copilot is able to create a function based on proper prompt comments in a given programming language.',
+    type: 'javascript',
+    tags: ['javascript' ,'frontend']
+  },
+  {
+    videoUrl: '/videos/16.mp4',
+    title: 'css styling',
+    description: 'The basic feature of Copilot. This demo shows copilot is creating css styles based on context. The css might not be the best, need further improvement by developers.',
+    type: 'css',
+    tags: ['css' ,'frontend']
+  },
+  {
+    videoUrl: '/videos/17.mp4',
+    title: 'inline editing to generate a whole react component',
+    description: 'The basic feature of Copilot. Copilot creates an entire react component based on the prompt words given. It is basically a template generator. Will need developers to further improve the code.',
+    type: 'misc',
+    tags: ['misc' ,'frontend']
+  },
+  {
+    videoUrl: '/videos/18.mp4',
+    title: 'inline editing to refactor a react component',
+    description: 'The basic feature of Copilot. Copilot can perform simple refactor based on the context.',
+    type: 'misc',
+    tags: ['misc' ,'frontend']
+  },
 ];
 
 export default Videos;
