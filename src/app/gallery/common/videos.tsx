@@ -183,18 +183,18 @@ const Videos: Video[] = [
     tags: ['misc', 'frontend']
   },
   {
-    videoUrl: '/videos/400.mp4',
-    title: 'limit on suggstions',
-    description: 'Let us start the journey to discover the beauty of Github Copilot.',
+    videoUrl: '/videos/Limit_library_not_exist.mp4',
+    title: 'Suggest library  not exist',
+    description: 'Copilot sometimes suggest the library that does not exist',
     type: 'limit',
-    tags: ['limit', 'frontend']
+    tags: ['limit']
   },
   {
-    videoUrl: '/videos/401.mp4',
-    title: 'limit on css generation',
-    description: 'Let us start the journey to discover the beauty of Github Copilot.',
+    videoUrl: '/videos/Limit_function_not_exist.mp4',
+    title: 'Suggest function not exist',
+    description: 'Copilot sometimes provide suggestions on function that does not exist',
     type: 'limit',
-    tags: ['limit', 'css']
+    tags: ['limit']
   },
 
 ];

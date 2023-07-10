@@ -24,12 +24,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h3 className={`text-xl font-bold mb-2`}>
             Github Copilot{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
-          </h2>
+          </h3>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
           Your AI pair programmer
           </p>
@@ -40,12 +40,12 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h3 className={`text-xl font-bold mb-2`}>
             Get Started{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
-          </h2>
+          </h3>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Explore how we can make use of copilot in our daily work.
           </p>
@@ -56,28 +56,27 @@ export default function Home() {
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h3 className={`text-xl font-bold mb-2`}>
             Gallery{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
-          </h2>
+          </h3>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Explore how we can make use of copilot in our daily work.
           </p>
         </a>
-
         <a
           href="/limitations"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
+          <h3 className={`text-xl font-bold mb-2`}>
             Limitations{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
-          </h2>
+          </h3>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             There are things Github Copilot are not so good at.
           </p>
