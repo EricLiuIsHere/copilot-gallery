@@ -98,7 +98,7 @@ function IntroPage() {
                             Gallery
                         </a>
                     </li>
-                    
+
 
                 </ol>
                 <p className="text-lg text-gray-800 dark:text-gray-100 mb-8">
@@ -106,7 +106,17 @@ function IntroPage() {
                     It's a powerful tool that can help you save time and write better code.
                     Give it a try and see how it can improve your development workflow!
                 </p>
-
+                <p className="text-lg text-gray-800 dark:text-gray-100 mb-8">
+                    For more infomation, please visit{' '}
+                    <br />
+                    <a href="https://docs.github.com/en/copilot/quickstart" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
+                        target="_blank"
+                        rel="noopener noreferrer">Complete guide (English)</a>
+                <br />
+                    <a href="https://docs.github.com/zh/copilot/quickstart" className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300"
+                        target="_blank"
+                        rel="noopener noreferrer">Complete guide (Chinese)</a>
+                </p>
             </div>
         </div>
     );

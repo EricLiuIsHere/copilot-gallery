@@ -33,7 +33,7 @@ const Videos: Video[] = [
     title: 'Code explaination',
     description: 'Explain the code in a simple way. E.x. two obj compare util',
     type: 'javascript',
-    tags: ['javascript' ,'frontend']
+    tags: ['javascript', 'frontend']
   },
   {
     videoUrl: '/videos/2.mp4',
@@ -47,14 +47,14 @@ const Videos: Video[] = [
     title: 'UX Design',
     description: 'Suggest on existing design. E.x. forgot password, remember me',
     type: 'misc',
-    tags: ['misc' ,'frontend']
+    tags: ['misc', 'frontend']
   },
   {
     videoUrl: '/videos_hua/functional_test_case.mp4',
     title: 'Functional Test Case',
     description: 'Suggest/add test case on a function by short key ctrl/command + i',
     type: 'test',
-    tags: ['test' ,'frontend']
+    tags: ['test', 'frontend']
   },
   {
     videoUrl: '/videos/1.mp4',
@@ -131,21 +131,56 @@ const Videos: Video[] = [
     title: 'Code Suggestion/Refactor',
     description: 'Code Suggestions/Refactor base on existing code. E.x. add more documentation',
     type: 'javascript',
-    tags: ['javascript' ,'frontend']
+    tags: ['javascript', 'frontend']
   },
   {
     videoUrl: '/videos_hua/component_test_case.mp4',
     title: 'Component Test Case',
     description: 'Suggest/add test case on a simple component',
     type: 'test',
-    tags: ['test' ,'frontend']
+    tags: ['test', 'frontend']
   },
   {
     videoUrl: '/videos_hua/git_histories.mp4',
     title: 'Git Command Guidance',
     description: 'Show me on how to preserve specific file histoies from one repo to another repo',
     type: 'misc',
-    tags: ['misc' ,'frontend']
+    tags: ['misc', 'frontend']
+  },
+  {
+    videoUrl: '/videos/14.mp4',
+    title: 'Create a function - javascript',
+    description: 'The basic feature of Copilot. This demo shows copilot is able to create a function based on proper prompt comments.',
+    type: 'javascript',
+    tags: ['javascript', 'frontend']
+  },
+  {
+    videoUrl: '/videos/15.mp4',
+    title: 'Create a function - typescript',
+    description: 'The basic feature of Copilot. This demo shows copilot is able to create a function based on proper prompt comments in a given programming language.',
+    type: 'javascript',
+    tags: ['javascript', 'frontend']
+  },
+  {
+    videoUrl: '/videos/16.mp4',
+    title: 'css styling',
+    description: 'The basic feature of Copilot. This demo shows copilot is creating css styles based on context. The css might not be the best, need further improvement by developers.',
+    type: 'css',
+    tags: ['css', 'frontend']
+  },
+  {
+    videoUrl: '/videos/17.mp4',
+    title: 'inline editing to generate a whole react component',
+    description: 'The basic feature of Copilot. Copilot creates an entire react component based on the prompt words given. It is basically a template generator. Will need developers to further improve the code.',
+    type: 'misc',
+    tags: ['misc', 'frontend']
+  },
+  {
+    videoUrl: '/videos/18.mp4',
+    title: 'inline editing to refactor a react component',
+    description: 'The basic feature of Copilot. Copilot can perform simple refactor based on the context.',
+    type: 'misc',
+    tags: ['misc', 'frontend']
   },
   {
     videoUrl: '/videos/400.mp4',
@@ -154,7 +189,6 @@ const Videos: Video[] = [
     type: 'limit',
     tags: ['limit', 'frontend']
   },
-
   {
     videoUrl: '/videos/401.mp4',
     title: 'limit on css generation',
