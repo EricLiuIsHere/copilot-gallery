@@ -6,6 +6,7 @@ interface CardProps {
   description: string;
   videoUrl: string;
   tags?: string[];
+  author?: string;
 }
 
 function Card({ title, description, videoUrl, tags }: CardProps) {
