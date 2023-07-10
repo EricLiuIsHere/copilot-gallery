@@ -1,20 +1,42 @@
-export interface DocType {
+
+
+export interface VideoType {
   title: string;
   description: string;
   type: string;
 }
 
-const DocTypes: DocType[] = [
+const VideoTypes: VideoType[] = [
   {
-    title: 'Tutorial for Copilot',
-    description: 'This doc will guide you through the journey how can get started with github copilot.',
-    type: 'tutorial',
+    title: 'CSS Videos',
+    description: 'Below are the videos demonstrate how copilot is helping to make a difference to the styles I am anticipate.',
+    type: 'css',
   },
   {
-    title: 'Instructions for how to make a proper prompt',
-    description: 'While using github copilot, it is essential to use proper prompt to get results as you want.',
-    type: 'instructions',
-  }
+    title: 'HTML Videos',
+    description: 'Copilot is able to generate HTML code blocks (i.e. HTML inside tsx file).',
+    type: 'html',
+  },
+  {
+    title: 'JavaScript Videos',
+    description: 'JavaScript is the most popular language in Github Copilot training set. With the help of Copilot, devs are able to write code faster and more efficiently in JavaScript.',
+    type: 'javascript',
+  },
+  {
+    title: 'Bug Fix Videos',
+    description: 'When there are issues, copilot will provide suggestions how to fix.',
+    type: 'bugFix',
+  },
+  {
+    title: 'Test Videos',
+    description: 'Generate test are the basic feature to Copilot.',
+    type: 'test',
+  },
+  {
+    title: 'Misc Videos',
+    description: 'With Github Copilot, you can do more than you think.',
+    type: 'misc',
+  },
 ];
 
-export default DocTypes;
+export default VideoTypes;
