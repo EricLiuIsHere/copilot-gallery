@@ -4,7 +4,6 @@ export interface Video {
   description: string;
   type: string;
   tags?: string[];
-  author?: string;
 }
 
 const Videos: Video[] = [
@@ -111,42 +110,42 @@ const Videos: Video[] = [
     title: 'Code explaination',
     description: 'Explain the code in a simple way. E.x. two obj compare util',
     type: 'javascript',
-    author: 'Hua'
+    tags: ['javascript' ,'frontend']
   },
   {
     videoUrl: '/videos_hua/code_suggestion.mp4',
     title: 'code Suggestion/Refactor',
     description: 'Code Suggestions/Refactor base on existing code. E.x. add more documentation',
     type: 'javascript',
-    author: 'Hua'
+    tags: ['javascript' ,'frontend']
   },
   {
     videoUrl: '/videos_hua/component_test_case.mp4',
     title: 'Component Test Case',
     description: 'Suggest/add test case on a simple component',
     type: 'test',
-    author: 'Hua'
+    tags: ['test' ,'frontend']
   },
   {
     videoUrl: '/videos_hua/functional_test_case.mp4',
     title: 'Functional Test Case',
     description: 'Suggest/add test case on a function by short key ctrl/command + i',
     type: 'test',
-    author: 'Hua'
+    tags: ['test' ,'frontend']
   },
   {
     videoUrl: '/videos_hua/ux_design.mp4',
     title: 'UX Design',
     description: 'Suggest on existing design. E.x. forgot password, remember me',
     type: 'misc',
-    author: 'Hua'
+    tags: ['misc' ,'frontend']
   },
   {
     videoUrl: '/videos_hua/git_histories.mp4',
     title: 'Git Command Guidance',
     description: 'Show me on how to preserve specific file histoies from one repo to another repo',
     type: 'misc',
-    author: 'Hua'
+    tags: ['misc' ,'frontend']
   },
 
 ];
