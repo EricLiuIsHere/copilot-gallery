@@ -147,6 +147,21 @@ const Videos: Video[] = [
     type: 'misc',
     tags: ['misc' ,'frontend']
   },
+  {
+    videoUrl: '/videos/400.mp4',
+    title: 'limit on suggstions',
+    description: 'Let us start the journey to discover the beauty of Github Copilot.',
+    type: 'limit',
+    tags: ['limit', 'frontend']
+  },
+
+  {
+    videoUrl: '/videos/401.mp4',
+    title: 'limit on css generation',
+    description: 'Let us start the journey to discover the beauty of Github Copilot.',
+    type: 'limit',
+    tags: ['limit', 'css']
+  },
 
 ];
 
