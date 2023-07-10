@@ -1,0 +1,26 @@
+.card {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .videoWrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.2s ease-in-out;
+  }
+  
+  .video:hover {
+    opacity: 0.8;
+  }

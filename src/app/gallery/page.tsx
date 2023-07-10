@@ -1,37 +1,28 @@
+'use client'
 import VideoSection from './components/videoSection';
-
+import Search from './components/search';
+import React, { useState } from 'react';
+import DocSection from './components/docSection';
 function GalleryPage() {
+  const [query, setQuery] = useState('');
+  function handleSearch(query: string) {
+    setQuery(query);
+  }
+
   return (
-    <div className="w-full">
+    <div className="w-full min-h-screen">
+      <Search onSearch={handleSearch} />
       <VideoSection
-        title="CSS Videos"
-        description="Below are the videos demonstrate how copilot is helping to make a difference to the styles I am anticipate."
-        type="css"
+        key={'Videos'}
+        title={'Videos'}
+        filter={query}
+        description={'Video collection to demonstrate the use of Copilot'}
       />
-      <VideoSection
-        title="HTML Videos"
-        description="Copilot is able to generate HTML code blocks (i.e. HTML inside tsx file)."
-        type="html"
-      />
-      <VideoSection
-        title="JavaScript Videos"
-        description="JavaScript is the most popular language in Github Copilot training set. With the help of Copilot, devs are able to write code faster and more efficiently in JavaScript."
-        type="javascript"
-      />
-      <VideoSection
-        title="Bug Fix Videos"
-        description="When there are issues, copilot will provide suggestions how to fix."
-        type="bugFix"
-      />
-      <VideoSection
-        title="Test Videos"
-        description="Generate test are the basic feature to Copilot."
-        type="test"
-      />
-      <VideoSection
-        title="Misc Videos"
-        description="With Github Copilot, you can do more than you think."
-        type="misc"
+      <DocSection
+        key={'Docs'}
+        title={'Docs'}
+        filter={query}
+        description={'Documentation collection to demonstrate the use of Copilot'}
       />
     </div>
   );

@@ -13,7 +13,6 @@ export default function GalleryLayout({
   });
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
       <nav className="text-gray-500 text-sm self-start">
         <Link href="/">
           <span className="hover:text-gray-700">Home</span>
