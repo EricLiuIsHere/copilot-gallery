@@ -1,36 +1,29 @@
 export interface Limitation {
     title: string;
     description: string;
-    author?: string;
   }
   
   const Limitations: Limitation[] = [
     {
-      title: 'issue',
-      description: 'Version control is not good, for example I want to generate a angular project base on specific version',
-      author: 'Hua'
+        title: 'disadvantange',
+        description: 'Distracting - as it can suggest many different things, which can be overwhelming for some developers.'
     },
     {
-      title: 'issue',
-      description: 'Not able to detect obvious VA issue',
-      author: 'Hua'
+        title: 'disadvantange',
+        description: 'Bad habits - suggest code is unoptimized, inefficient or event insecure.'
     },
     {
-        title: 'issue',
-        description: "Incomplete code suggestion - Oops, your response got filtered. Vote down if you think this shouldn't have happened.",
-        author: 'Hua'
+        title: 'disadvantange',
+        description: 'Versioin detect - suggest code is not well based on existing code of workspace.'
     },
     {
-        title: 'issue',
-        description: 'Not well-equipped with exsiting code',
-        author: 'Hua'
+        title: 'disadvantange',
+        description: "Incomplete code suggestion - Oops, your response got filtered. Vote down if you think this shouldn't have happened."
     },
     {
-        title: 'issue',
-        description: 'Code suggestion is based on old code',
-        author: 'Hua'
-    },
-  
+        title: 'disadvantange',
+        description: 'Contrains on the HTML tags generation as per ulimited loop'
+    }
   ];
   
   export default Limitations;

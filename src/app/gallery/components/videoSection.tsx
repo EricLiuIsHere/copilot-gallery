@@ -33,7 +33,6 @@ function VideoSection({ title, description,filter }: VideoSectionProps) {
             title={video.title}
             description={video.description}
             videoUrl={video.videoUrl}
-            author={video.author}
             tags={video.tags}
           />
         ))}
