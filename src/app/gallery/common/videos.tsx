@@ -3,7 +3,7 @@ export interface Video {
   title: string;
   description: string;
   type: string;
-  tags?: string[];
+  tags: string[];
 }
 
 const Videos: Video[] = [

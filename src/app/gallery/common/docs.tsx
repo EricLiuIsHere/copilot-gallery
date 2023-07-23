@@ -8,7 +8,7 @@ export interface Doc {
   
   const Docs: Doc[] = [
     {
-      docUrl: '/docs/sample.doc',
+      docUrl: 'https://docs.github.com/en/copilot/getting-started-with-github-copilot',
       title: 'Welcome to GitHub Copilot!',
       description: 'Let us start the journey to discover the beauty of Github Copilot.',
       type: 'misc',

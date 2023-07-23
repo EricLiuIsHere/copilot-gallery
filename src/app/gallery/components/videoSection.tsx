@@ -14,8 +14,9 @@ function VideoSection({ title, description,videos }: VideoSectionProps) {
       <h2 className="text-2xl font-bold mb-4">{title}</h2>
       <p className="text-gray-500 mb-4">{description}</p>
       <div className="grid grid-cols-3 gap-9 place-items-center">
-        {videos.map((video: Video) => (
+        {videos.map((video: Video, index: number) => (
           <Card
+            id={index}
             key={video.videoUrl}
             title={video.title}
             description={video.description}

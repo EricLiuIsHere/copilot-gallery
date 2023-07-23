@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import styles from './videoCard.module.css';
+import { useRouter } from 'next/navigation'
 
 interface CardProps {
   title: string;
@@ -8,13 +9,14 @@ interface CardProps {
   videoUrl: string;
   tags?: string[];
   author?: string;
+  id: number;
 }
 
-function Card({ title, description, videoUrl, tags }: CardProps) {
+function Card({ title, description, videoUrl, tags, id }: CardProps) {
   const [showVideo, setShowVideo] = useState(false);
-
+  const router = useRouter();
   const handleVideoClick = () => {
-    setShowVideo(true);
+    router.push(`/gallery/video/${id}`)
   };
   return (
     <div className={`${styles.card} max-w-sm rounded overflow-hidden shadow-lg`} onClick={handleVideoClick}>
