@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "text": "Provide examples:",
+    "description": "Providing examples of the code you're trying to write can help Copilot understand what you're trying to accomplish and generate more accurate suggestions."
+  },
+  {
+    "id": 2,
+    "text": "Use descriptive variable names:",
+    "description": "Using descriptive variable names can help Copilot understand the purpose of your code and generate more accurate suggestions. Avoid using generic names like 'x' or 'y', and instead use names that describe the data or functionality being represented."
+  },
+  {
+    "id": 3,
+    "text": "Include comments:",
+    "description": "Including comments in your code can help Copilot understand the purpose and context of your code, and generate more accurate suggestions. Use comments to describe the functionality of your code, and to provide additional context that may not be immediately apparent from the code itself."
+  },
+  {
+    "id": 4,
+    "text": "Provide context:",
+    "description": "Providing context for your code can help Copilot understand what you're trying to accomplish and generate more accurate suggestions. Make sure to include information about the problem you're trying to solve, the data you're working with, and any relevant constraints or requirements."
+  },
+  {
+    "id": 5,
+    "text": "Use natural language:",
+    "description": "Using natural language to describe your code can help Copilot understand what you're trying to accomplish and generate more accurate suggestions. Avoid using technical jargon or abbreviations that may not be familiar to Copilot, and instead use plain language to describe your code."
+  },
+  {
+    "id": 6,
+    "text": "Break down complex tasks into smaller steps:",
+    "description": "Breaking down complex tasks into smaller steps can help Copilot understand what you're trying to accomplish and generate more accurate suggestions. Instead of asking Copilot to write an entire function or module, break it down into smaller pieces and provide prompts for each step."
+  },
+  {
+    "id": 7,
+    "text": "Use consistent formatting:",
+    "description": "Using consistent formatting can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent indentation, spacing, and other formatting conventions throughout your code."
+  },
+  {
+    "id": 8,
+    "text": "Avoid ambiguous or vague prompts:",
+    "description": "Ambiguous or vague prompts can confuse Copilot and generate inaccurate or irrelevant suggestions. Make sure your prompts are clear, specific, and provide enough context for Copilot to understand what you're trying to accomplish."
+  },
+  {
+    "id": 9,
+    "text": "Use the right programming language:",
+    "description": "GitHub Copilot supports a variety of programming languages, and using the right language for your code can help Copilot generate more accurate suggestions. Make sure to select the correct language in your IDE or editor, and provide prompts that are specific to that language."
+  },
+  {
+    "id": 10,
+    "text": "Provide feedback to improve the model:",
+    "description": "GitHub Copilot is powered by machine learning, which means it can learn and improve over time. If you encounter issues or errors with Copilot, provide feedback to help improve the model and make it more accurate and effective."
+  },
+  {
+    "id": 11,
+    "text": "Use clear and concise language:",
+    "description": "Using clear and concise language in your prompts can help Copilot understand what you're trying to accomplish and generate more accurate suggestions. Avoid using overly complex or convoluted language, and instead use simple, straightforward language to describe your code."
+  },
+  {
+    "id": 12,
+    "text": "Provide input and output examples:",
+    "description": "Providing input and output examples for your code can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include examples of the data you're working with, and the expected output of your code."
+  },
+  {
+    "id": 13,
+    "text": "Use descriptive function and variable names:",
+    "description": "Using descriptive function and variable names can help Copilot understand the purpose of your code and generate more accurate suggestions. Avoid using generic names like 'x' or 'y', and instead use names that describe the data or functionality being represented."
+  },
+  {
+    "id": 14,
+    "text": "Provide relevant comments:",
+    "description": "Providing relevant comments in your code can help Copilot understand the purpose and context of your code, and generate more accurate suggestions. Use comments to describe the functionality of your code, and to provide additional context that may not be immediately apparent from the code itself."
+  },
+  {
+    "id": 15,
+    "text": "Use Copilot to generate boilerplate code:",
+    "description": "Copilot can be a great tool for generating boilerplate code, such as class definitions, function signatures, and import statements. Use Copilot to generate the basic structure of your code, and then fill in the details as needed."
+  },
+  {
+    "id": 16,
+    "text": "Provide context for your code:",
+    "description": "Providing context for your code can help Copilot understand what you're trying to accomplish and generate more accurate suggestions. Make sure to include information about the problem you're trying to solve, the data you're working with, and any relevant constraints or requirements."
+  },
+  {
+    "id": 17,
+    "text": "Use consistent naming conventions:",
+    "description": "Using consistent naming conventions can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent naming conventions for variables, functions, and other elements of your code."
+  },
+  {
+    "id": 18,
+    "text": "Avoid using overly complex code:",
+    "description": "Using overly complex code can confuse Copilot and generate inaccurate or irrelevant suggestions. Make sure to keep your code as simple and straightforward as possible, and avoid unnecessary complexity or abstraction."
+  },
+  {
+    "id": 19,
+    "text": "Provide clear and specific prompts:",
+    "description": "Providing clear and specific prompts can help Copilot understand what you're trying to accomplish and generate more accurate suggestions. Make sure your prompts are specific to the problem you're trying to solve, and provide enough context for Copilot to understand the task at hand."
+  },
+  {
+    "id": 20,
+    "text": "Use Copilot to explore new programming languages:",
+    "description": "Copilot can be a great tool for exploring new programming languages and frameworks. Use Copilot to generate sample code and explore the syntax and structure of new languages and frameworks."
+  },
+  {
+    "id": 21,
+    "text": "Use descriptive error messages:",
+    "description": "Using descriptive error messages can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to provide clear and specific error messages that describe the problem and suggest possible solutions."
+  },
+  {
+    "id": 22,
+    "text": "Provide test cases:",
+    "description": "Providing test cases for your code can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include test cases that cover a range of inputs and edge cases."
+  },
+  {
+    "id": 23,
+    "text": "Use version control:",
+    "description": "Using version control can help you collaborate with others and keep track of changes to your code. Make sure to use a version control system like Git to manage your code and collaborate with others."
+  },
+  {
+    "id": 24,
+    "text": "Use code snippets:",
+    "description": "Using code snippets can help you save time and avoid repetitive tasks. Use Copilot to generate code snippets for common tasks, and save them for later use."
+  },
+  {
+    "id": 25,
+    "text": "Provide examples of similar code:",
+    "description": "Providing examples of similar code can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include examples of code that is similar to what you're trying to accomplish."
+  },
+  {
+    "id": 26,
+    "text": "Use consistent coding style:",
+    "description": "Using consistent coding style can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent coding style for indentation, spacing, and other formatting conventions throughout your code."
+  },
+  {
+    "id": 27,
+    "text": "Provide documentation:",
+    "description": "Providing documentation for your code can help others understand how to use your code and what it does. Make sure to include clear and concise documentation that describes the purpose and functionality of your code."
+  },
+  {
+    "id": 28,
+    "text": "Use meaningful variable names:",
+    "description": "Using meaningful variable names can help Copilot understand the purpose of your code and generate more accurate suggestions. Make sure to use variable names that describe the data or functionality being represented."
+  },
+  {
+    "id": 29,
+    "text": "Use consistent function signatures:",
+    "description": "Using consistent function signatures can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent function signatures for parameters, return types, and other elements of your code."
+  },
+  {
+    "id": 30,
+    "text": "Provide examples of expected output:",
+    "description": "Providing examples of expected output can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include examples of the expected output for your code."
+  },
+  {
+    "id": 31,
+    "text": "Use descriptive function names:",
+    "description": "Using descriptive function names can help Copilot understand the purpose of your code and generate more accurate suggestions. Make sure to use function names that describe the functionality being performed."
+  },
+  {
+    "id": 32,
+    "text": "Use consistent naming conventions for classes:",
+    "description": "Using consistent naming conventions for classes can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent naming conventions for classes, such as PascalCase or camelCase."
+  },
+  {
+    "id": 33,
+    "text": "Provide examples of edge cases:",
+    "description": "Providing examples of edge cases can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include examples of edge cases that may not be immediately apparent from the problem statement."
+  },
+  {
+    "id": 34,
+    "text": "Use consistent naming conventions for files:",
+    "description": "Using consistent naming conventions for files can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent naming conventions for files, such as snake_case or kebab-case."
+  },
+  {
+    "id": 35,
+    "text": "Provide examples of input data:",
+    "description": "Providing examples of input data can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include examples of the input data for your code."
+  },
+  {
+    "id": 36,
+    "text": "Use consistent coding conventions:",
+    "description": "Using consistent coding conventions can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent coding conventions for things like variable naming, function signatures, and other elements of your code."
+  },
+  {
+    "id": 37,
+    "text": "Provide examples of output data:",
+    "description": "Providing examples of output data can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include examples of the output data for your code."
+  },
+  {
+    "id": 38,
+    "text": "Use consistent indentation:",
+    "description": "Using consistent indentation can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent indentation for blocks of code, such as loops and conditionals."
+  },
+  {
+    "id": 39,
+    "text": "Provide examples of related code:",
+    "description": "Providing examples of related code can help Copilot understand the problem you're trying to solve and generate more accurate suggestions. Make sure to include examples of code that is related to what you're trying to accomplish."
+  },
+  {
+    "id": 40,
+    "text": "Use consistent variable types:",
+    "description": "Using consistent variable types can help Copilot understand the structure of your code and generate more accurate suggestions. Make sure to use consistent variable types for things like integers, strings, and other data types."
+  }
+]
