@@ -20,7 +20,7 @@ function Card({ title, description, videoUrl, tags, id }: CardProps) {
   };
   return (
     <div className={`${styles.card} max-w-sm rounded overflow-hidden shadow-lg`} onClick={handleVideoClick}>
-      {showVideo ? (
+      {/* {showVideo ? ( */}
         <div>
           <div className={`${styles.videoWrapper} pb-9/16`}>
             <video
@@ -48,8 +48,8 @@ function Card({ title, description, videoUrl, tags, id }: CardProps) {
             </div>
           </div>
         </div>
-      ) : (
-        <>
+      {/* ) : ( */}
+        {/* <>
           <div className={`${styles.videoWrapper} pb-9/16`}>
             <img
               className={`${styles.video} w-full h-full h-216`}
@@ -71,8 +71,8 @@ function Card({ title, description, videoUrl, tags, id }: CardProps) {
               ))}
             </div>
           </div>
-        </>
-      )}
+        </> */}
+      {/* )} */}
     </div>
   );
 }
